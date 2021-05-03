@@ -6,7 +6,11 @@ class User < ApplicationRecord
 
   has_many :books, dependent: :destroy
   has_many :book_comments, dependent: :destroy
-   has_many :favorites, dependent: :destroy
+  has_many :favorites, dependent: :destroy
+
+  has_many :xxx, class_name: "モデル名", foreign_key: "○○_id", dependent: :destroy
+  has_many :yyy, through: :xxx, source: :zzz
+
   attachment :profile_image, destroy: false
 
   validates :name, length: {maximum: 20, minimum: 2}, uniqueness: true
