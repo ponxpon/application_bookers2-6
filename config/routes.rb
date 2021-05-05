@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   resources :users,only: [:show,:index,:edit,:update] do
     get :following, :followers
   end
-
+  get "search" => "searches#search"
   post 'follow/:id' => 'relationships#create', as: 'follow' # フォローする
   post 'unfollow/:id' => 'relationships#destroy', as: 'unfollow' # フォロー外す
 end
