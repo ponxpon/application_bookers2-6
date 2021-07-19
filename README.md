@@ -1,24 +1,19 @@
-# README
+# DMM WEBCAMP 応用課題2~6
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 学習内容
 
-Things you may want to cover:
+### 課題2
+- バグを見つけてエラーを解決し、RSpecテストを実行。
+- 28のバグを修正。
 
-* Ruby version
+### 課題3
+いいね機能とコメント機能の実装
 
-* System dependencies
+### 課題4
+フォロー機能とフォロワー機能の実装
 
-* Configuration
+### 課題5
+検索機能の実装
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### 課題6
+いいね機能とコメント機能を非同期通信化
